@@ -1,0 +1,824 @@
+[             ] Require frontend run.  artifacts/tundra_tinygems-web-wasm_cny.dag.json does not exist yet
+[             ] Require frontend run.  artifacts/buildprogram/tundra_buildprogram.dag.json does not exist yet
+[             ] Require frontend run.  artifacts/buildprogram/buildprogram_buildprogram.dag.json does not exist yet
+[           0s] Freezing buildprogram_buildprogram.dag.json into .dag (.dag file didn't exist)
+[0/7        0s] CSProject buildprogram-build.gen.csproj
+[1/7        0s] WriteResponseFile artifacts/rsp/3205345334039319834.rsp
+[2/7        0s] Download and unpack artifacts/buildprogrambuildprogram/Stevedore/7za-mac-x64_1887/.StevedoreVersion (+1 other)
+[3/7        0s] Download and unpack artifacts/buildprogrambuildprogram/Stevedore/referenceassemblies_v471_a0c3/.StevedoreVersion (+1 other)
+[4/7        2s] Download and unpack artifacts/buildprogrambuildprogram/Stevedore/roslyn-csc-mac_43f7/.StevedoreVersion (+1 other)
+[5/7        4s] Csc artifacts/buildprogram/buildprogram_buildprogram.exe (+2 others)
+*** buildprogrambuildprogram build success (7.63 seconds), 6 items updated, 7 evaluated
+[           0s] Freezing tundra_buildprogram.dag.json into .dag (.dag file didn't exist)
+[ 0/13      0s] WriteResponseFile artifacts/rsp/1008532451738831585.rsp
+[ 1/13      0s] CSProject /Users/Ocean/Documents/2021/06_unity/ProjectTinySamples-master/TinyGems/Library/PackageCache/com.unity.dots.runtime@0.31.0-preview.24/bee~/BuildProgramBuildProgramSources/buildprogrambuildprogram.gen.csproj
+[ 2/13      0s] CSProject /Users/Ocean/Documents/2021/06_unity/ProjectTinySamples-master/TinyGems/Library/DotsRuntimeBuild/buildprogram.gen.csproj
+[ 3/13      0s] WriteResponseFile artifacts/rsp/16678227308262555357.rsp
+[ 4/13      0s] VisualStudioSolution build.gen.sln
+[ 5/13      0s] CopyTool artifacts/buildprogram/bee.exe
+[ 6/13      0s] CopyTool artifacts/buildprogrambuildprogram.exe/Release/bee.exe
+[ 7/13      0s] Download and unpack artifacts/Stevedore/7za-mac-x64_d7d6/.StevedoreVersion (+1 other)
+[ 8/13      0s] Download and unpack artifacts/Stevedore/referenceassemblies_v471_a0c3/.StevedoreVersion (+1 other)
+[ 9/13      2s] Download and unpack artifacts/Stevedore/roslyn-csc-mac_a543/.StevedoreVersion (+1 other)
+[BUSY       6s] Csc artifacts/buildprogrambuildprogram.exe/Release/buildprogrambuildprogram.exe (+2 others)
+[10/13      7s] Csc artifacts/buildprogrambuildprogram.exe/Release/buildprogrambuildprogram.exe (+2 others)
+[11/13      7s] Csc artifacts/buildprogram/buildprogram.exe (+2 others)
+*** buildprogram build success (10.02 seconds), 12 items updated, 13 evaluated
+[      11s] Executed build program. Created build graph with 659 nodes.
+[           0s] Freezing tundra_tinygems-web-wasm_cny.dag.json into .dag (.dag file didn't exist)
+[  0/532    0s] CopyTool artifacts/Unity.Entities.BuildUtils.dll/Release/Mono.Cecil.Rocks.dll
+[  1/532    0s] CopyTool artifacts/Unity.Entities.BuildUtils.dll/Release/Mono.Cecil.Mdb.dll
+[  2/532    0s] CopyTool artifacts/Unity.Entities.BuildUtils.dll/Release/Mono.Cecil.Pdb.dll
+[  3/532    0s] WriteResponseFile artifacts/rsp/6610484566020318365.rsp
+[  4/532    0s] CopyTool artifacts/TypeRegGen.exe/Release/Mono.Cecil.Mdb.dll
+[  5/532    0s] CopyTool artifacts/TypeRegGen.exe/Release/Mono.Cecil.Pdb.dll
+[  6/532    0s] CopyTool artifacts/Unity.Entities.BuildUtils.dll/Release/Mono.Cecil.dll
+[  7/532    0s] WriteResponseFile artifacts/rsp/8631158493796270753.rsp
+[  8/532    0s] WriteResponseFile artifacts/rsp/17734634380417820594.rsp
+[  9/532    0s] WriteResponseFile artifacts/rsp/4587227421054690088.rsp
+[ 10/532    0s] CopyTool artifacts/TypeRegGen.exe/Release/Mono.Cecil.Rocks.dll
+[ 11/532    0s] WriteResponseFile artifacts/rsp/6359171859682663422.rsp
+[ 12/532    0s] WriteResponseFile artifacts/rsp/14058168238907736844.rsp
+[ 13/532    0s] WriteResponseFile artifacts/rsp/13000560802980376492.rsp
+[ 14/532    0s] CopyTool artifacts/TypeRegGen.exe/Release/Mono.Cecil.dll
+[ 15/532    0s] WriteResponseFile artifacts/rsp/14282566968998543452.rsp
+[ 16/532    0s] WriteResponseFile artifacts/rsp/11046728204610995522.rsp
+[ 17/532    0s] WriteResponseFile artifacts/rsp/1128731088617295004.rsp
+[ 18/532    0s] WriteResponseFile artifacts/rsp/3620774720061130886.rsp
+[ 19/532    0s] WriteResponseFile artifacts/rsp/3403168251166106990.rsp
+[ 20/532    0s] WriteResponseFile artifacts/rsp/7017142147661349564.rsp
+[ 21/532    0s] WriteResponseFile artifacts/rsp/1889349445792087084.rsp
+[ 22/532    0s] WriteResponseFile artifacts/rsp/14295799805575422508.rsp
+[ 23/532    0s] WriteResponseFile artifacts/rsp/14080612762815701388.rsp
+[ 24/532    0s] WriteResponseFile artifacts/rsp/7484664512407938074.rsp
+[ 25/532    0s] CopyTool artifacts/UnsafeUtilityPatcher/Mono.Cecil.Mdb.dll
+[ 25/532    0s] CopyTool artifacts/UnsafeUtilityPatcher/Mono.Cecil.Pdb.dll
+[ 27/532    0s] CopyTool artifacts/UnsafeUtilityPatcher/Mono.Cecil.Rocks.dll
+[ 28/532    0s] CopyTool artifacts/ILPostProcessorRunner.exe/HostDotNet/Unity.Collections.LowLevel.ILSupport.dll
+[ 29/532    0s] WriteResponseFile artifacts/rsp/11427537951320990477.rsp
+[ 30/532    0s] CopyTool artifacts/UnsafeUtilityPatcher/Mono.Cecil.dll
+[ 31/532    0s] CopyTool artifacts/ILPostProcessorRunner.exe/HostDotNet/Mono.Cecil.Pdb.dll
+[ 32/532    0s] CopyTool artifacts/ILPostProcessorRunner.exe/HostDotNet/Mono.Cecil.Mdb.dll
+[ 33/532    0s] WriteResponseFile artifacts/rsp/4361672155700403044.rsp
+[ 34/532    0s] WriteResponseFile artifacts/rsp/1139655341354081870.rsp
+[ 35/532    0s] CopyTool artifacts/ILPostProcessorRunner.exe/HostDotNet/Mono.Cecil.Rocks.dll
+[ 36/532    0s] CopyTool artifacts/ILPostProcessorRunner.exe/HostDotNet/Unity.CompilationPipeline.Common.dll
+[ 37/532    0s] WriteResponseFile artifacts/rsp/15689131761304574188.rsp
+[ 38/532    0s] CopyTool artifacts/ILPostProcessorRunner.exe/HostDotNet/Mono.Cecil.dll
+[ 39/532    0s] WriteResponseFile artifacts/rsp/16126304463509362600.rsp
+[ 40/532    0s] WriteResponseFile artifacts/rsp/1547829119399258290.rsp
+[ 41/532    0s] WriteResponseFile artifacts/rsp/498176463601831132.rsp
+[ 42/532    0s] WriteResponseFile artifacts/rsp/12451065454046089670.rsp
+[ 43/532    0s] WriteResponseFile artifacts/rsp/72452984086955810.rsp
+[ 44/532    0s] WriteResponseFile artifacts/rsp/3176767660948018450.rsp
+[ 45/532    0s] WriteResponseFile artifacts/rsp/9268377718408510290.rsp
+[ 46/532    0s] WriteResponseFile artifacts/rsp/17001237361689855560.rsp
+[ 47/532    0s] WriteText artifacts/emscripten-config-1.39.17.py
+[ 48/532    0s] WriteResponseFile artifacts/rsp/7770567146333724239.rsp
+[ 49/532    0s] CopyTool artifacts/ILPostProcessorRunner.exe/HostDotNet/CommandLine.dll
+[ 50/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/SubScenes/46b433b264c69cbd39f04ad2e5d12be8.conversionlog
+[ 51/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/SubScenes/46b433b264c69cbd39f04ad2e5d12be8.0.entities
+[ 51/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/SubScenes/46b433b264c69cbd39f04ad2e5d12be8.entityheader
+[ 53/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/catalog.bin
+[ 54/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/SubScenes/f17be26d84eed4a7886804c2b15424d4.entityheader
+[ 54/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/SubScenes/f17be26d84eed4a7886804c2b15424d4.conversionlog
+[ 56/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/SubScenes/f17be26d84eed4a7886804c2b15424d4.0.entities
+[ 57/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/SubScenes/02e193a5349444a7d8eccb1d72e96122.conversionlog
+[ 58/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/SubScenes/02e193a5349444a7d8eccb1d72e96122.entityheader
+[ 59/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/SubScenes/02e193a5349444a7d8eccb1d72e96122.0.entities
+[ 60/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/fccdb64fb3c2fc5d3c6043a46033a816
+[ 61/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/SubScenes/bf1112f89f30a49edb06511794420c3b.entityheader
+[ 62/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/e3b7dd427015cc323b8ab32937e06ba0
+[ 63/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/dce6a091b6226632c1a6c19148d6917e
+[ 64/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/d840aa465201fe97e86f01b46eaa5972
+[ 65/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/SubScenes/bf1112f89f30a49edb06511794420c3b.conversionlog
+[ 66/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/b8684753cb34c74fa347e6807261d7cf
+[ 67/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/b02901d0453f5fb6af46f936dbda6ab5
+[ 68/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/a93951f04e6c977531749969ac6b8cab
+[ 69/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/339033b772a1738c6c47f4ae316fdf0a
+[ 70/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/776eba6f82384db46090ac7ef6d8ccf5
+[ 71/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/51cb8636fd478b83f51c7effdab88824
+[ 72/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/775b9a653e13cd27b72d1d605b298bdd
+[ 73/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/37ba4e6c91872a74f82aa7bee0b2a8b8
+[ 74/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/9f7ba0e01c82e3a5ef50c43edc668853
+[ 75/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/9db22cca16665b9afd37f9d5ade3f991
+[ 76/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/5fb2507b1ea28f3b83dc408e8e5ebc44
+[ 77/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/4fc4216a05cc2a1ac5c9c94dc0dcd95a
+[ 78/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/4ef15938bd42a1f41fe85d2da597d49d
+[ 79/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/2f7b0646579617de49d0c651ca47a74e
+[ 80/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/2cb6d194592f29296e88effa269841ad
+[ 81/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/2c74489cdc7fe7b87502beba7589ace4
+[ 82/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/2ba1be91cb33cca0b0c56674d27bc823
+[ 83/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/2a0e75ec1bec7a8621210ad1e8892165
+[ 83/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/1ddd916bffcabfac5b8f99d25f7847e4
+[ 85/532    0s] CopyTool ../../Builds/tinygems-web-wasm/Data/SubScenes/bf1112f89f30a49edb06511794420c3b.0.entities
+[ 86/532    0s] Download and unpack artifacts/Stevedore/7za-mac-x64_d7d6/.StevedoreVersion (+1 other)
+[ 87/532    1s] Download and unpack artifacts/Stevedore/refassemblies-netstandard2_e589/.StevedoreVersion (+1 other)
+[ 88/532    0s] Download and unpack artifacts/Stevedore/roslyn-csc-mac_a543/.StevedoreVersion (+1 other)
+[ 89/532    0s] Download and unpack artifacts/Stevedore/referenceassemblies_v471_a0c3/.StevedoreVersion (+1 other)
+[ 90/532    6s] Download and unpack artifacts/Stevedore-ExternalUnpack/artifacts_Stevedore_node-mac-x64 (+1 other)
+[ 91/532    7s] Download and unpack artifacts/Stevedore-ExternalUnpack/artifacts_Stevedore_emscripten-mac (+1 other)
+[ 92/532    0s] Download and unpack artifacts/Stevedore/nativejobs-all-public_99a9/.StevedoreVersion (+1 other)
+[ 93/532    0s] Download and unpack artifacts/Stevedore/nativejobs-WebGL-public_0d02/.StevedoreVersion (+1 other)
+[ 94/532    9s] Download and unpack artifacts/Stevedore/emscripten-wasm-llvm-mac_eeb4/.StevedoreVersion (+1 other)
+[ 95/532    0s] Download and unpack artifacts/Stevedore/nativejobs-WebGL-s_0707/.StevedoreVersion (+1 other)
+[ 96/532    1s] Download and unpack artifacts/Stevedore/newtonsoft-json_d525/.StevedoreVersion (+1 other)
+[ 97/532    4s] Download and unpack artifacts/Stevedore/bgfx-source_04d5/.StevedoreVersion (+1 other)
+[ 98/532    0s] Csc artifacts/UnsafeUtility.dll/HostDotNet/UnsafeUtility.dll (+2 others)
+[ 99/532    0s] Csc artifacts/UnsafeUtilityPatcher/UnsafeUtilityPatcher.exe (+2 others)
+[100/532    3s] Download and unpack artifacts/Stevedore-ExternalUnpack/artifacts_Stevedore_http-server (+1 other)
+[101/532    1s] Package Shell File TinyGems/tinygems-web-wasm/WebTemplate/tiny_shell.html
+/Users/Ocean/Documents/2021/06_unity/ProjectTinySamples-master/TinyGems/Library/DotsRuntimeBuild/artifacts/Stevedore/node-mac-x64/bin/node,/Users/Ocean/Documents/2021/06_unity/ProjectTinySamples-master/TinyGems/Library/PackageCache/com.unity.dots.runtime@0.31.0-preview.24/LowLevelSupport~/WebSupport/package_shell_file.js,--outputHtml,TinyGems/tinygems-web-wasm/WebTemplate/tiny_shell.html,--inputShellHtml,/Users/Ocean/Documents/2021/06_unity/ProjectTinySamples-master/TinyGems/Library/PackageCache/com.unity.dots.runtime@0.31.0-preview.24/LowLevelSupport~/WebSupport/WebTemplates/Default/tiny_shell.html,--inputShellJs,/Users/Ocean/Documents/2021/06_unity/ProjectTinySamples-master/TinyGems/Library/PackageCache/com.unity.dots.runtime@0.31.0-preview.24/LowLevelSupport~/WebSupport/tiny_shell.js
+[102/532    2s] C_WebGL_wasm artifacts/lib_unity_lowlevel/tinygems-web-wasm/20ot/dummy.o
+cache:INFO: generating system asset: is_vanilla.txt... (this will be cached in "/Users/Ocean/Documents/2021/06_unity/ProjectTinySamples-master/TinyGems/Library/DotsRuntimeBuild/artifacts/emscripten-cache-1.39.17/is_vanilla.txt" for subsequent builds)
+cache:INFO:  - ok
+shared:INFO: (Emscripten: Running sanity checks)
+[103/532    0s] C_WebGL_wasm artifacts/lib_unity_lowlevel/tinygems-web-wasm/a1qi/guard.o
+[104/532    0s] C_WebGL_wasm artifacts/lib_unity_tiny_burst/tinygems-web-wasm/20ot/dummy.o
+[105/532    2s] C_WebGL_wasm artifacts/lib_unity_lowlevel/tinygems-web-wasm/a1qi/allocators.o
+shared:INFO: (Emscripten: Running sanity checks)
+[106/532    3s] C_WebGL_wasm artifacts/lib_unity_lowlevel/tinygems-web-wasm/a1qi/BurstInit.o
+shared:INFO: (Emscripten: Running sanity checks)
+[107/532    0s] C_WebGL_wasm artifacts/lib_unity_tiny_io/tinygems-web-wasm/20ot/dummy.o
+[108/532    0s] C_WebGL_wasm artifacts/lib_unity_tiny_io/tinygems-web-wasm/zmdz/AndroidLoader.o
+[109/532   14s] Download and unpack artifacts/Stevedore/il2cpp_a51d/.StevedoreVersion (+1 other)
+[110/532    0s] C_WebGL_wasm artifacts/lib_unity_zerojobs/tinygems-web-wasm/20ot/dummy.o
+[111/532    0s] C_WebGL_wasm artifacts/lib_unity_zerojobs/tinygems-web-wasm/gkm6/HTMLWrapper.o
+[112/532    1s] C_WebGL_wasm artifacts/lib_unity_tiny_burst/tinygems-web-wasm/cgky/BurstNativeSupport.o
+[113/532    0s] C_WebGL_wasm artifacts/lib_unity_entities/tinygems-web-wasm/20ot/dummy.o
+[114/532    0s] C_WebGL_wasm artifacts/lib_unity_zerojobs/tinygems-web-wasm/gkm6/ZeroJobsNativeSupport.o
+[115/532    0s] C_WebGL_wasm artifacts/lib_unity_zerojobs/tinygems-web-wasm/gkm6/PlayerConnectionNativeSupport.o
+[116/532    0s] C_WebGL_wasm artifacts/lib_unity_tiny_core/tinygems-web-wasm/20ot/dummy.o
+[117/532    1s] C_WebGL_wasm artifacts/lib_unity_tiny_io/tinygems-web-wasm/g366/TinyIO.o
+[118/532    0s] C_WebGL_wasm artifacts/lib_unity_tiny_image2d_web/tinygems-web-wasm/20ot/dummy.o
+[119/532    0s] C_WebGL_wasm artifacts/lib_unity_platforms_common/tinygems-web-wasm/20ot/dummy.o
+[120/532    0s] C_WebGL_wasm artifacts/lib_unity_platforms_common/tinygems-web-wasm/7bzd/macOSWrapper.o
+[121/532    0s] CopyTool artifacts/TypeRegGen.exe/Release/Newtonsoft.Json.dll
+[122/532    0s] C_WebGL_wasm artifacts/lib_unity_tiny_core/tinygems-web-wasm/vbfg/Log.o
+[123/532    0s] C_WebGL_wasm artifacts/lib_unity_platforms_common/tinygems-web-wasm/vmrp/WindowsWrapper.o
+[124/532    0s] C_WebGL_wasm artifacts/bimg/tinygems-web-wasm/kxhr/image_gnf.o
+[125/532    2s] C_WebGL_wasm artifacts/lib_unity_entities/tinygems-web-wasm/v3o7/lz4.o
+[126/532    1s] C_WebGL_wasm artifacts/bimg/tinygems-web-wasm/yhk5/codec.o
+[127/532    2s] C_WebGL_wasm artifacts/bimg/tinygems-web-wasm/kxhr/image.o
+[128/532    2s] C_WebGL_wasm artifacts/bimg/tinygems-web-wasm/yhk5/astc_file.o
+[129/532    3s] C_WebGL_wasm artifacts/bx/tinygems-web-wasm/981l/amalgamated.o
+[130/532    1s] C_WebGL_wasm artifacts/bimg/tinygems-web-wasm/yhk5/endpoint_codec.o
+[131/532    1s] C_WebGL_wasm artifacts/bimg/tinygems-web-wasm/yhk5/footprint.o
+[132/532    2s] C_WebGL_wasm artifacts/bimg/tinygems-web-wasm/yhk5/integer_sequence_codec.o
+[133/532    1s] C_WebGL_wasm artifacts/bimg/tinygems-web-wasm/yhk5/logical_astc_block.o
+[134/532    2s] C_WebGL_wasm artifacts/bimg/tinygems-web-wasm/yhk5/intermediate_astc_block.o
+[135/532    1s] C_WebGL_wasm artifacts/bimg/tinygems-web-wasm/yhk5/physical_astc_block.o
+[136/532    2s] C_WebGL_wasm artifacts/bimg/tinygems-web-wasm/yhk5/partition.o
+[137/532    0s] C_WebGL_wasm artifacts/lib_unity_tiny_rendering_native/tinygems-web-wasm/20ot/dummy.o
+[138/532    1s] C_WebGL_wasm artifacts/bimg/tinygems-web-wasm/yhk5/weight_infill.o
+[139/532    2s] C_WebGL_wasm artifacts/bimg/tinygems-web-wasm/yhk5/quantization.o
+[140/532    0s] Csc artifacts/Unity.LowLevel.dll/HostDotNet/Unity.LowLevel.dll (+2 others)
+[141/532    0s] Patch artifacts/UnsafeUtility.dll/HostDotNet/patched/UnsafeUtility.dll (+pdb)
+[UnsafeUtilityPatcher] Patching assembly : artifacts/UnsafeUtility.dll/HostDotNet/UnsafeUtility.dll to : artifacts/UnsafeUtility.dll/HostDotNet/patched/UnsafeUtility.dll
+[396/532    0s] Csc artifacts/Unity.Tiny.Burst.dll/HostDotNet/Unity.Tiny.Burst.dll (+2 others)
+[397/532    1s] C_WebGL_wasm artifacts/lib_unity_tiny_rendering_native/tinygems-web-wasm/tsbm/BufferedCallbacks.o
+[398/532    0s] CopyTool artifacts/ILPostProcessorRunner.exe/HostDotNet/Unity.LowLevel.dll
+[399/532    0s] CopyTool artifacts/ILPostProcessorRunner.exe/HostDotNet/UnsafeUtility.dll
+[404/532    0s] CopyTool artifacts/ILPostProcessorRunner.exe/HostDotNet/Unity.Tiny.Burst.dll
+[442/532    0s] Lib_WebGL_wasm artifacts/lib_unity_lowlevel/tinygems-web-wasm/lib_unity_lowlevel.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[443/532    0s] Csc artifacts/Unity.Tiny.Thread.Native.dll/HostDotNet/Unity.Tiny.Thread.Native.dll (+2 others)
+[444/532    0s] Lib_WebGL_wasm artifacts/lib_unity_tiny_burst/tinygems-web-wasm/lib_unity_tiny_burst.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[445/532    0s] CopyTool artifacts/ILPostProcessorRunner.exe/HostDotNet/Unity.Tiny.Thread.Native.dll
+[446/532    0s] Lib_WebGL_wasm artifacts/lib_unity_tiny_io/tinygems-web-wasm/lib_unity_tiny_io.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[447/532    0s] Csc artifacts/Unity.Tiny.IO.dll/HostDotNet/Unity.Tiny.IO.dll (+2 others)
+[448/532    0s] CopyTool artifacts/ILPostProcessorRunner.exe/HostDotNet/Unity.Tiny.IO.dll
+[449/532    0s] Lib_WebGL_wasm artifacts/lib_unity_zerojobs/tinygems-web-wasm/lib_unity_zerojobs.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[450/532    0s] Lib_WebGL_wasm artifacts/lib_unity_platforms_common/tinygems-web-wasm/lib_unity_platforms_common.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[452/532    0s] Lib_WebGL_wasm artifacts/lib_unity_entities/tinygems-web-wasm/lib_unity_entities.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[453/532    0s] Lib_WebGL_wasm artifacts/lib_unity_tiny_core/tinygems-web-wasm/lib_unity_tiny_core.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[457/532    0s] Csc artifacts/Unity.Burst.dll/HostDotNet/Unity.Burst.dll (+2 others)
+[458/532    0s] CopyTool artifacts/ILPostProcessorRunner.exe/HostDotNet/Unity.Burst.dll
+[459/532    0s] Lib_WebGL_wasm artifacts/lib_unity_tiny_image2d_web/tinygems-web-wasm/lib_unity_tiny_image2d_web.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[460/532    0s] Csc artifacts/Unity.ZeroJobs.dll/HostDotNet/Unity.ZeroJobs.dll (+2 others)
+[461/532    0s] CopyTool artifacts/ILPostProcessorRunner.exe/HostDotNet/Unity.ZeroJobs.dll
+[462/532    0s] Csc artifacts/Unity.Properties.dll/HostDotNet/Unity.Properties.dll (+2 others)
+[464/532    0s] CopyTool artifacts/ILPostProcessorRunner.exe/HostDotNet/Unity.Properties.dll
+[466/532    0s] Csc artifacts/Unity.Properties.Reflection.dll/HostDotNet/Unity.Properties.Reflection.dll (+2 others)
+[467/532    0s] CopyTool artifacts/ILPostProcessorRunner.exe/HostDotNet/Unity.Properties.Reflection.dll
+[468/532    2s] Csc artifacts/Unity.Mathematics.dll/HostDotNet/Unity.Mathematics.dll (+2 others)
+[469/532    0s] CopyTool artifacts/ILPostProcessorRunner.exe/HostDotNet/Unity.Mathematics.dll
+[470/532    1s] Csc artifacts/Unity.Collections.dll/HostDotNet/Unity.Collections.dll (+2 others)
+[471/532    0s] CopyTool artifacts/ILPostProcessorRunner.exe/HostDotNet/Unity.Collections.dll
+[472/532    0s] Csc artifacts/Unity.Jobs.dll/HostDotNet/Unity.Jobs.dll (+2 others)
+[473/532    0s] CopyTool artifacts/ILPostProcessorRunner.exe/HostDotNet/Unity.Jobs.dll
+[474/532    0s] Csc artifacts/Unity.Mathematics.Extensions.dll/HostDotNet/Unity.Mathematics.Extensions.dll (+2 others)
+[475/532    0s] CopyTool artifacts/ILPostProcessorRunner.exe/HostDotNet/Unity.Mathematics.Extensions.dll
+[476/532    0s] Csc artifacts/Unity.Serialization.dll/HostDotNet/Unity.Serialization.dll (+2 others)
+[477/532    0s] CopyTool artifacts/ILPostProcessorRunner.exe/HostDotNet/Unity.Serialization.dll
+[478/532    1s] Csc artifacts/Unity.Entities.dll/HostDotNet/Unity.Entities.dll (+2 others)
+[481/532    0s] CopyTool artifacts/ILPostProcessorRunner.exe/HostDotNet/Unity.Entities.dll
+[525/532   11s] C_WebGL_wasm artifacts/bgfx/tinygems-web-wasm/mmih/amalgamated.o
+[526/532    0s] Lib_WebGL_wasm artifacts/lib_unity_tiny_rendering_native/tinygems-web-wasm/lib_unity_tiny_rendering_native.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+*** Bee requires additional run (36.96 seconds), 181 items updated, 532 evaluated
+[             ] Require frontend run.  tundra_buildprogram.dag no longer valid. directory contents changed: ../PackageCache/com.unity.dots.runtime@0.31.0-preview.24/bee~/BuildProgramBuildProgramSources
+[             ] Require frontend run.  buildprogram_buildprogram.dag no longer valid. directory contents changed: .
+[           0s] Freezing buildprogram_buildprogram.dag.json into .dag (.dag file didn't exist)
+*** buildprogrambuildprogram build success (0.01 seconds), 0 items updated, 7 evaluated
+[           0s] Freezing tundra_buildprogram.dag.json into .dag (.dag file didn't exist)
+*** buildprogram build success (0.02 seconds), 0 items updated, 13 evaluated
+[      11s] Executed build program. Created build graph with 655 nodes.
+[           0s] Freezing tundra_tinygems-web-wasm_cny.dag.json into .dag (Timestamp of .json > .dag)
+[           0s] Delete 11 artifact files that are no longer in use. (like artifacts/Stevedore-ExternalUnpack/artifacts_Stevedore_emscripten-mac)
+[115/528    0s] Csc artifacts/UnsafeUtility.dll/tinygems-web-wasm/UnsafeUtility.dll (+2 others)
+[116/528    0s] CopyTool artifacts/ILPostProcessorRunner.exe/HostDotNet/Unity.Cecil.Awesome.dll
+[117/528    0s] CopyTool artifacts/Unity.Entities.BuildUtils.dll/Release/Unity.Cecil.Awesome.dll
+[118/528    0s] C_WebGL_wasm artifacts/lib_unity_tiny_audio_web/tinygems-web-wasm/20ot/dummy.o
+[121/528    0s] CopyTool artifacts/TypeRegGen.exe/Release/Unity.Cecil.Awesome.dll
+[125/528    0s] C_WebGL_wasm artifacts/lib_unity_tiny_input_web/tinygems-web-wasm/20ot/dummy.o
+[143/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/q98j/Marshal.o
+[144/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/q98j/GCHandle.o
+[145/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/14uz/Debugger.o
+[146/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/779w/Enum.o
+[147/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/779w/GC.o
+[148/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/779w/Type.o
+[149/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/aij8/il2cpp-virtual-remap.o
+[150/528    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/779w/Environment.o
+[151/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/aij8/il2cpp-api.o
+[152/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/44c1/DebugMetadata.o
+[153/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/czx7/pch-cpp.o
+[154/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/44c1/Exception.o
+[155/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/44c1/LastError.o
+[156/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/44c1/PlatformInvoke.o
+[157/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/44c1/Runtime.o
+[158/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/44c1/String.o
+[159/528    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/44c1/Reflection.o
+[160/528    3s] C_WebGL_wasm artifacts/boehm-gc/tinygems-web-wasm/hucc/gc.o
+[161/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/44c1/Type.o
+[162/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/44c1/TypeUniverse.o
+[163/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/x1jt/ConsoleExtension.o
+[164/528    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/44c1/StackTrace.o
+[165/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/x1jt/Initialize.o
+[166/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/x1jt/StackTrace.o
+[167/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/x1jt/Locale.o
+[168/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/x1jt/TimeZoneInfo.o
+[169/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/ak74/SocketBridge.o
+[170/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/hdg8/Error.o
+[171/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/9wur/Assert.o
+[172/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/hdg8/CrashHelpers.o
+[173/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/9wur/COM.o
+[174/528    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/hdg8/ConditionVariable.o
+[175/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/9wur/CpuInfo.o
+[176/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/hdg8/Event.o
+[177/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/9wur/Environment.o
+[178/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/9wur/CrashHelpers.o
+[179/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/9wur/Initialize.o
+[180/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/9wur/File.o
+[181/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/9wur/Debug.o
+[182/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/9wur/MarshalStringAlloc.o
+[183/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/9wur/Handle.o
+[184/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/9wur/SocketBridge.o
+[185/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/9wur/SocketImpl.o
+[186/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/9wur/Process.o
+[187/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/9wur/SystemCertificates.o
+[188/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/9wur/TimeZoneInfo.o
+[189/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/hdg8/Image.o
+[190/528    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/9wur/MemoryMappedFile.o
+[191/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/jjld/Automation.o
+[192/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/9wur/WindowsRuntime.o
+[193/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/jjld/Debug.o
+[194/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/jjld/File.o
+[195/528    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/hdg8/LibraryLoader.o
+[196/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/jjld/Initialize.o
+[197/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/jjld/Environment.o
+[198/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/jjld/Lifecycle.o
+[199/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/jjld/Process.o
+[200/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/jjld/StackTrace.o
+[201/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/jjld/TimeZoneInfo.o
+[202/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/evib/Image.o
+[203/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/evib/Process.o
+[204/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/evib/SystemCertificates.o
+[205/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/hdg8/Messages.o
+[206/528    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/hdg8/Mutex.o
+[207/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/ConditionVariableImpl.o
+[208/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/CpuInfo.o
+[209/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/hdg8/Path.o
+[210/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/CrashHelpers.o
+[211/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/Console.o
+[212/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/Cryptography.o
+[213/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/Directory.o
+[214/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/Encoding.o
+[215/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/EventImpl.o
+[216/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/FileSystemWatcher.o
+[217/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/Environment.o
+[218/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/Error.o
+[219/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/Image.o
+[220/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/LastError.o
+[221/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/MarshalAlloc.o
+[222/528    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/File.o
+In file included from /Users/Ocean/Documents/2021/06_unity/ProjectTinySamples-master/TinyGems/Library/DotsRuntimeBuild/artifacts/Stevedore/il2cpp_a51d/libil2cpp/os/Posix/File.cpp:28:
+/Users/Ocean/Documents/2021/06_unity/ProjectTinySamples-master/TinyGems/Library/DotsRuntimeBuild/artifacts/Stevedore/emscripten-mac/system/include/libc/sys/errno.h:1:2: warning: redirecting incorrect #include <sys/errno.h> to <errno.h> [-W#warnings]
+#warning redirecting incorrect #include <sys/errno.h> to <errno.h>
+ ^
+1 warning generated.
+[223/528    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/LibraryLoader.o
+[224/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/Locale.o
+[225/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/Memory.o
+[226/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/MemoryMappedFile.o
+[227/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/MutexImpl.o
+[228/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/NativeMethods.o
+[229/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/PosixHelpers.o
+[230/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/Path.o
+[231/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/PosixWaitObject.o
+[232/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/Process.o
+[233/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/SemaphoreImpl.o
+[234/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/SocketImpl.o
+[235/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/SystemCertificates.o
+[236/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/StackTrace.o
+[237/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/ThreadImpl.o
+[238/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/Time.o
+[239/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/1lz9/TimeZone.o
+[240/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/hdg8/ReaderWriterLock.o
+[241/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/hdg8/Socket.o
+[242/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/5ktd/ThreadImpl.o
+[243/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/hdg8/Semaphore.o
+[244/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/Assert.o
+[245/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/COM.o
+[246/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/hdg8/StackTrace.o
+[247/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/hdg8/Thread.o
+[248/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/ConditionVariableImpl.o
+[249/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/CpuInfo.o
+[250/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/Console.o
+[251/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/Cryptography.o
+[252/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/CrashHelpers.o
+[253/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/Debug.o
+[254/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/Directory.o
+[255/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/Encoding.o
+[256/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/DllMain.o
+[257/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/Environment.o
+[258/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/EventImpl.o
+[259/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/File.o
+[260/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/FileSystemWatcher.o
+[261/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/Handle.o
+[262/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/Image.o
+[263/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/LastError.o
+[263/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/Initialize.o
+[265/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/LibraryLoader.o
+[266/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/Locale.o
+[267/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/MarshalAlloc.o
+[268/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/MarshalStringAlloc.o
+[269/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/MemoryMappedFile.o
+[270/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/Memory.o
+[271/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/NativeMethods.o
+[272/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/MutexImpl.o
+[273/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/Path.o
+[274/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/SemaphoreImpl.o
+[275/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/SocketImpl.o
+[276/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/StackTrace.o
+[277/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/Process.o
+[278/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/SystemCertificates.o
+[279/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/SynchronizationContext.o
+[280/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/ThreadImpl.o
+[281/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/TimeZone.o
+[282/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/Time.o
+[283/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/WindowsHelpers.o
+[284/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/WindowsRuntime.o
+[285/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/cikd/BrokeredFileSystem.o
+[286/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/cikd/Cryptography.o
+[287/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/cikd/Environment.o
+[288/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/cikd/File.o
+[289/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/cikd/Initialize.o
+[290/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/cikd/Locale.o
+[291/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/cikd/MarshalAlloc.o
+[292/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/cikd/Win32ApiSharedEmulation.o
+[293/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/cikd/Process.o
+[294/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/cikd/Win32ApiWinRTEmulation.o
+[295/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/grj7/Win32ApiWindowsGamesEmulation.o
+[296/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/COM.o
+[297/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/ConditionVariable.o
+[298/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/CpuInfo.o
+[299/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/Cryptography.o
+[300/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/Allocator.o
+[301/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/Console.o
+[302/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/Debug.o
+[303/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/Directory.o
+[304/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/Error.o
+[305/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/CultureInfo.o
+[306/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/File.o
+[307/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/Event.o
+[308/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/Handle.o
+[309/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/Environment.o
+[310/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/LibraryLoader.o
+[311/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/Locale.o
+[312/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/MemoryMappedFile.o
+[313/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/Memory.o
+[314/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/Messages.o
+[315/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/Mutex.o
+[316/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/NativeMethods.o
+[317/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/Path.o
+[318/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/Process.o
+[319/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/Semaphore.o
+[320/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/Socket.o
+[321/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/SystemCertificates.o
+[322/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/Thread.o
+[323/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/ThreadLocalValue.o
+[324/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/TimeZone.o
+[325/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/Time.o
+[326/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/i92u/TimeZoneInfo.o
+[327/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/gqis/COMTests.o
+[328/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/gqis/ConditionVariableTests.o
+[329/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/gqis/ConsoleTests.o
+[330/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/gqis/CpuInfoTests.o
+[331/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/gqis/CryptographyTests.o
+[332/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/gqis/DebugTests.o
+[333/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/gqis/DirectoryTests.o
+[334/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/gqis/EnvironmentTests.o
+[335/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/gqis/ErrorTests.o
+[336/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/gqis/EventTests.o
+[337/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/gqis/FileTests.o
+[338/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/gqis/LibraryLoaderTests.o
+[339/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/gqis/LocaleTests.o
+[340/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/gqis/MemoryMappedFileTests.o
+[341/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/gqis/MainTestRunner.o
+[342/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/gqis/MemoryTests.o
+[343/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/gqis/MessagesTests.o
+[344/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/gqis/MutexTests.o
+[345/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/gqis/NativeMethodsTests.o
+[346/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/gqis/PathTests.o
+[347/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/gqis/ProcessTests.o
+[348/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/gqis/SemaphoreTests.o
+[349/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/gqis/SocketTests.o
+[350/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/gqis/ThreadLocalValueTests.o
+[351/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/gqis/ThreadTests.o
+[352/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/gqis/TimeTests.o
+[353/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/gqis/TimeZoneInfoTests.o
+[354/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/l66f/NullGC.o
+[355/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/l66f/BoehmGC.o
+[356/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/l66f/WriteBarrier.o
+[357/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/l66f/WriteBarrierValidation.o
+[358/528    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/l66f/GarbageCollector.o
+[359/528    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/l66f/GCHandle.o
+[360/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/kw61/Il2CppHStringReference.o
+[361/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/kw61/DirectoryUtils.o
+[362/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/kw61/Logging.o
+[363/528    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/kw61/Environment.o
+[364/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/kw61/Exception.o
+[365/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/kw61/MarshalingUtils.o
+[366/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/kw61/Memory.o
+[367/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/kw61/MemoryMappedFile.o
+[368/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/kw61/MemoryPool.o
+[369/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/kw61/Output.o
+[370/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/kw61/PathUtils.o
+[371/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/kw61/Runtime.o
+[372/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/olxa/BlobReader.o
+[373/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/olxa/Debugger.o
+[374/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/olxa/NativeDelegateMethodCache.o
+[375/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/kw61/mono-structs.o
+[376/528    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/kw61/StringUtils.o
+[377/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/olxa/VmStringUtils.o
+[378/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/uan6/il2cpp-codegen-common.o
+[379/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/l2ih/Math.o
+[380/528    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/olxa/NativeSymbol.o
+[381/528    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/ncem/Interlocked.o
+[382/528    0s] C_WebGL_wasm artifacts/lib_unity_tiny_web/tinygems-web-wasm/pdc6/HTMLWrapper.o
+[383/528    0s] C_WebGL_wasm artifacts/lib_unity_tiny_web/tinygems-web-wasm/20ot/dummy.o
+[384/528    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/uan6/il2cpp-codegen-il2cpp.o
+[385/528    1s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/uan6/il2cpp-codegen-tiny.o
+[386/528    0s] C_WebGL_wasm artifacts/lib_unity_platforms_runloop/tinygems-web-wasm/20ot/dummy.o
+[387/528    0s] C_WebGL_wasm artifacts/lib_unity_platforms_runloop/tinygems-web-wasm/8qld/Time.o
+[389/528    0s] C_WebGL_wasm artifacts/lib_unity_tiny_web/tinygems-web-wasm/pdc6/SendMessageCallbackHandler.o
+[392/528    0s] Csc artifacts/Unity.LowLevel.dll/tinygems-web-wasm/Unity.LowLevel.dll (+2 others)
+[393/528    0s] Patch artifacts/UnsafeUtility.dll/tinygems-web-wasm/patched/UnsafeUtility.dll (+pdb)
+[UnsafeUtilityPatcher] Patching assembly : artifacts/UnsafeUtility.dll/tinygems-web-wasm/UnsafeUtility.dll to : artifacts/UnsafeUtility.dll/tinygems-web-wasm/patched/UnsafeUtility.dll
+[395/528    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z6vx/xxhash.o
+In file included from /Users/Ocean/Documents/2021/06_unity/ProjectTinySamples-master/TinyGems/Library/DotsRuntimeBuild/artifacts/Stevedore/il2cpp_a51d/external/xxHash/xxhash.c:1021:
+/Users/Ocean/Documents/2021/06_unity/ProjectTinySamples-master/TinyGems/Library/DotsRuntimeBuild/artifacts/Stevedore/il2cpp_a51d/external/xxHash/xxh3.h:550:13: warning: loop not unrolled: the optimizer was unable to perform the requested transformation; the transformation might be disabled or specified as part of an unsupported transformation ordering [-Wpass-failed=transform-warning]
+static void XXH3_accumulate(U64* acc, const void* restrict data, const U32* restrict key, size_t nbStripes)
+            ^
+1 warning generated.
+[400/528    1s] C_WebGL_wasm artifacts/lib_unity_platforms_runloop/tinygems-web-wasm/5zqg/HTMLWrapper.o
+[401/528    0s] Lib_WebGL_wasm artifacts/boehm-gc/tinygems-web-wasm/boehm-gc.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[407/528    0s] Csc artifacts/Unity.Entities.BuildUtils.dll/Release/Unity.Entities.BuildUtils.dll (+2 others)
+[411/528    0s] CopyTool artifacts/TypeRegGen.exe/Release/Unity.Entities.BuildUtils.pdb
+[416/528    0s] CopyTool artifacts/TypeRegGen.exe/Release/Unity.Entities.BuildUtils.dll
+[421/528    0s] Csc artifacts/Unity.Tiny.IO.dll/tinygems-web-wasm/Unity.Tiny.IO.dll (+2 others)
+[426/528    0s] Csc artifacts/Unity.Tiny.Burst.dll/tinygems-web-wasm/Unity.Tiny.Burst.dll (+2 others)
+[432/528    0s] Lib_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/libil2cpptiny.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[436/528    0s] Lib_WebGL_wasm artifacts/lib_unity_tiny_web/tinygems-web-wasm/lib_unity_tiny_web.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[437/528    0s] Csc artifacts/Unity.Properties.CodeGen.dll/HostDotNet/Unity.Properties.CodeGen.dll (+2 others)
+[441/528    0s] Csc artifacts/TypeRegGen.exe/Release/TypeRegGen.exe (+2 others)
+[442/528    0s] Lib_WebGL_wasm artifacts/lib_unity_platforms_runloop/tinygems-web-wasm/lib_unity_platforms_runloop.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[443/528    0s] CopyTool artifacts/ILPostProcessorRunner.exe/HostDotNet/Unity.Properties.CodeGen.dll
+[444/528    0s] Lib_WebGL_wasm artifacts/lib_unity_tiny_audio_web/tinygems-web-wasm/lib_unity_tiny_audio_web.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[446/528    0s] Lib_WebGL_wasm artifacts/lib_unity_tiny_input_web/tinygems-web-wasm/lib_unity_tiny_input_web.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[447/528    0s] Csc artifacts/Unity.Burst.dll/tinygems-web-wasm/Unity.Burst.dll (+2 others)
+[448/528    0s] Csc artifacts/Unity.ZeroJobs.dll/tinygems-web-wasm/Unity.ZeroJobs.dll (+2 others)
+[449/528    0s] Csc artifacts/Unity.Entities.CodeGen.dll/HostDotNet/Unity.Entities.CodeGen.dll (+2 others)
+[450/528    0s] CopyTool artifacts/ILPostProcessorRunner.exe/HostDotNet/Unity.Entities.CodeGen.dll
+[451/528    0s] Csc artifacts/Unity.Platforms.Common.dll/tinygems-web-wasm/Unity.Platforms.Common.dll (+2 others)
+[452/528    0s] Csc artifacts/Unity.Properties.dll/tinygems-web-wasm/Unity.Properties.dll (+2 others)
+[453/528    0s] Csc artifacts/Unity.Properties.Reflection.dll/tinygems-web-wasm/Unity.Properties.Reflection.dll (+2 others)
+[454/528    0s] Csc artifacts/ILPostProcessorRunner.exe/HostDotNet/ILPostProcessorRunner.exe (+2 others)
+[455/528    0s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/netstandard.dll
+[456/528    0s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Collections.LowLevel.ILSupport.dll
+[457/528    0s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/UnsafeUtility.dll (+pdb)
+[458/528    0s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/mscorlib.dll
+[459/528    0s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.LowLevel.dll (+pdb)
+[460/528    0s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Tiny.IO.dll (+pdb)
+[461/528    0s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Tiny.Burst.dll (+pdb)
+[462/528    0s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Burst.dll (+pdb)
+[463/528    3s] Csc artifacts/Unity.Mathematics.dll/tinygems-web-wasm/Unity.Mathematics.dll (+2 others)
+[464/528    0s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.ZeroJobs.dll (+pdb)
+[465/528    0s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Platforms.Common.dll (+pdb)
+[466/528    0s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Properties.dll (+pdb)
+[467/528    0s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Properties.Reflection.dll (+pdb)
+[468/528    0s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Mathematics.dll (+pdb)
+[469/528    1s] Csc artifacts/Unity.Collections.dll/tinygems-web-wasm/Unity.Collections.dll (+2 others)
+[470/528    0s] Csc artifacts/Unity.Jobs.dll/tinygems-web-wasm/Unity.Jobs.dll (+2 others)
+[471/528    0s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Collections.dll (+pdb)
+[472/528    0s] Csc artifacts/Unity.Mathematics.Extensions.dll/tinygems-web-wasm/Unity.Mathematics.Extensions.dll (+2 others)
+[473/528    0s] Csc artifacts/Unity.Serialization.dll/tinygems-web-wasm/Unity.Serialization.dll (+2 others)
+[474/528    0s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Jobs.dll (+pdb)
+[475/528    0s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Mathematics.Extensions.dll (+pdb)
+[476/528    0s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Serialization.dll (+pdb)
+[477/528    7s] Csc artifacts/Unity.Platforms.RunLoop.dll/tinygems-web-wasm/Unity.Platforms.RunLoop.dll (+2 others)
+[478/528    1s] Csc artifacts/Unity.Entities.dll/tinygems-web-wasm/Unity.Entities.dll (+2 others)
+[479/528    0s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Platforms.RunLoop.dll (+pdb)
+[480/528    0s] Csc artifacts/Unity.Entities.Runtime.dll/tinygems-web-wasm/Unity.Entities.Runtime.dll (+2 others)
+[481/528    0s] Csc artifacts/Unity.Tiny.Core.dll/tinygems-web-wasm/Unity.Tiny.Core.dll (+2 others)
+[482/528    0s] Csc artifacts/Unity.Transforms.dll/tinygems-web-wasm/Unity.Transforms.dll (+2 others)
+[483/528    0s] Csc artifacts/Unity.Tiny.Image2D.dll/tinygems-web-wasm/Unity.Tiny.Image2D.dll (+2 others)
+[484/528    0s] Csc artifacts/Unity.Tiny.Web.dll/tinygems-web-wasm/Unity.Tiny.Web.dll (+2 others)
+[485/528    0s] Csc artifacts/Unity.Tiny.Input.dll/tinygems-web-wasm/Unity.Tiny.Input.dll (+2 others)
+[486/528    1s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Entities.Runtime.dll (+pdb)
+[487/528    0s] Csc artifacts/Unity.Scenes.dll/tinygems-web-wasm/Unity.Scenes.dll (+2 others)
+[488/528    0s] Csc artifacts/Unity.Tiny.Audio.dll/tinygems-web-wasm/Unity.Tiny.Audio.dll (+2 others)
+[489/528    1s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Tiny.Core.dll (+pdb)
+[490/528    1s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Entities.dll (+pdb)
+[491/528    0s] Csc artifacts/Unity.2D.Entities.Physics.dll/tinygems-web-wasm/Unity.2D.Entities.Physics.dll (+2 others)
+[492/528    0s] Csc artifacts/Unity.Tiny.Image2D.Web.dll/tinygems-web-wasm/Unity.Tiny.Image2D.Web.dll (+2 others)
+[493/528    0s] Csc artifacts/Unity.Tiny.Rendering.dll/tinygems-web-wasm/Unity.Tiny.Rendering.dll (+2 others)
+[494/528    0s] Csc artifacts/Unity.Tiny.Input.Web.dll/tinygems-web-wasm/Unity.Tiny.Input.Web.dll (+2 others)
+[495/528    1s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Transforms.dll (+pdb)
+[496/528    1s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Tiny.Image2D.dll (+pdb)
+[497/528    0s] Csc artifacts/Unity.Tiny.UnityInstance.dll/tinygems-web-wasm/Unity.Tiny.UnityInstance.dll (+2 others)
+[498/528    1s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Tiny.Web.dll (+pdb)
+[499/528    0s] Csc artifacts/Unity.Tiny.Audio.Web.dll/tinygems-web-wasm/Unity.Tiny.Audio.Web.dll (+2 others)
+[500/528    1s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Tiny.Input.dll (+pdb)
+[501/528    1s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Scenes.dll (+pdb)
+[502/528    1s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Tiny.Audio.dll (+pdb)
+[503/528    1s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Tiny.Image2D.Web.dll (+pdb)
+[504/528    1s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.2D.Entities.Physics.dll (+pdb)
+[505/528    0s] Csc artifacts/Unity.Tiny.Rendering.Native.dll/tinygems-web-wasm/Unity.Tiny.Rendering.Native.dll (+2 others)
+[506/528    0s] Csc artifacts/Unity.Tiny.2D.dll/tinygems-web-wasm/Unity.Tiny.2D.dll (+2 others)
+[507/528    0s] Csc artifacts/Unity.Runtime.EntryPoint.exe/tinygems-web-wasm/Unity.Runtime.EntryPoint.exe (+2 others)
+[508/528    0s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Tiny.Input.Web.dll (+pdb)
+[509/528    0s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Tiny.UnityInstance.dll (+pdb)
+[510/528    0s] Csc artifacts/Unity.Tiny.2D.Native.dll/tinygems-web-wasm/Unity.Tiny.2D.Native.dll (+2 others)
+[511/528    1s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Tiny.Audio.Web.dll (+pdb)
+[512/528    0s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Runtime.EntryPoint.exe (+pdb)
+[513/528    0s] Csc artifacts/TinyGems.dll/tinygems-web-wasm/TinyGems.dll (+2 others)
+/Users/Ocean/Documents/2021/06_unity/ProjectTinySamples-master/TinyGems/Assets/Scripts/Runtime/CellSwapSystem.cs(10,22): warning CS0169: The field 'CellSwapSystem.m_IsMouseDown' is never used
+/Users/Ocean/Documents/2021/06_unity/ProjectTinySamples-master/TinyGems/Assets/Scripts/Runtime/InputToActionSystem.cs(10,29): warning CS0169: The field 'InputToActionSystem.m_CellQuery' is never used
+/Users/Ocean/Documents/2021/06_unity/ProjectTinySamples-master/TinyGems/Assets/Scripts/Runtime/CellSwapSystem.cs(9,24): warning CS0169: The field 'CellSwapSystem.m_MouseStartPos' is never used
+[514/528    1s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Tiny.2D.dll (+pdb)
+[515/528    2s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Tiny.Rendering.dll (+pdb)
+[516/528    1s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Tiny.Rendering.Native.dll (+pdb)
+[517/528    0s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/Unity.Tiny.2D.Native.dll (+pdb)
+[518/528    0s] ILPostProcessorRunner artifacts/TinyGems/tinygems-web-wasm/post_ilprocessing/TinyGems.dll (+pdb)
+[519/528    1s] TypeRegGen artifacts/TinyGems/tinygems-web-wasm/post_typereg/TinyGems.dll (+72 others)
+[520/528    5s] UnityLinker artifacts/TinyGems/tinygems-web-wasm_stripped/TinyGems.dll (+72 others)
+[BUSY       6s] Il2Cpp artifacts/TinyGems/tinygems-web-wasm_stripped/il2cpp-src
+[521/528   14s] Il2Cpp artifacts/TinyGems/tinygems-web-wasm_stripped/il2cpp-src
+*** Bee requires additional run (72.51 seconds - 0:01:12), 345 items updated, 528 evaluated
+*** buildprogram build success (0.04 seconds), 0 items updated, 13 evaluated
+[      11s] Executed build program. Created build graph with 802 nodes.
+[           0s] Freezing tundra_tinygems-web-wasm_cny.dag.json into .dag (Timestamp of .json > .dag)
+[ 50/675    0s] WriteResponseFile artifacts/rsp/2466317702257111483.rsp
+[257/675    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/ConditionVariableImpl.o
+[259/675    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/EventImpl.o
+[263/675    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/Environment.o
+[264/675    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/File.o
+[268/675    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/Handle.o
+[269/675    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/Locale.o
+[270/675    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/LibraryLoader.o
+[271/675    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/MemoryMappedFile.o
+[272/675    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/MutexImpl.o
+[273/675    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/NativeMethods.o
+[274/675    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/Path.o
+[276/675    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/SocketImpl.o
+[278/675    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/SemaphoreImpl.o
+[281/675    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/SynchronizationContext.o
+[283/675    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/Process.o
+[285/675    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/ThreadImpl.o
+[287/675    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/cikd/BrokeredFileSystem.o
+[331/675    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/dp5o/WindowsHelpers.o
+[516/675    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/cikd/Environment.o
+[517/675    0s] C_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/cikd/Initialize.o
+[518/675    4s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/GenericMethods1.o
+[519/675    6s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/GenericMethods.o
+[520/675    1s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/GenericMethods12.o
+[BUSY      12s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/GenericMethods10.o
+[521/675   13s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/GenericMethods10.o
+[522/675    8s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/GenericMethods2.o
+[523/675    8s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/GenericMethods3.o
+[524/675   17s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/GenericMethods11.o
+[525/675    6s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/GenericMethods5.o
+[526/675    6s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/GenericMethods6.o
+[527/675    8s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/GenericMethods4.o
+[528/675    5s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/GenericMethods7.o
+[529/675    5s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Generics.o
+[530/675    7s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/GenericMethods8.o
+[531/675    5s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Generics1.o
+[532/675    8s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/GenericMethods9.o
+[533/675    4s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Generics11.o
+[534/675    5s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Generics10.o
+[535/675    4s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Generics12.o
+[536/675    4s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Generics13.o
+[537/675    3s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Generics14.o
+[538/675    3s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Generics15.o
+[539/675    3s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Generics16.o
+[540/675    4s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Generics17.o
+[541/675    4s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Generics18.o
+[542/675    4s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Generics19.o
+[543/675    4s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Generics20.o
+[544/675    4s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Generics21.o
+[545/675    7s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Generics2.o
+[546/675    4s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Generics22.o
+[547/675    2s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Generics25.o
+[548/675    6s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Generics23.o
+[549/675    4s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Generics24.o
+[550/675    3s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Generics4.o
+[551/675    2s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Generics5.o
+[552/675    2s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Generics6.o
+[553/675    8s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Generics3.o
+[554/675    3s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Generics7.o
+[555/675    3s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Generics8.o
+[556/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Generics_StaticConstructors.o
+[557/675    3s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Generics9.o
+[558/675    2s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Il2CppGenericComDefinitions.o
+[559/675    2s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Il2CppGenericComDefinitions1.o
+[560/675    2s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Il2CppGenericComDefinitions10.o
+[561/675    2s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Il2CppGenericComDefinitions11.o
+[562/675    2s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Il2CppGenericComDefinitions12.o
+[563/675    2s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Il2CppGenericComDefinitions13.o
+[564/675    2s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Il2CppGenericComDefinitions14.o
+[565/675    2s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Il2CppGenericComDefinitions15.o
+[566/675    2s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Il2CppGenericComDefinitions16.o
+[567/675    2s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Il2CppGenericComDefinitions18.o
+[568/675    2s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Il2CppGenericComDefinitions17.o
+[569/675    2s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Il2CppGenericComDefinitions19.o
+[570/675    2s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Il2CppGenericComDefinitions20.o
+[571/675    2s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Il2CppGenericComDefinitions21.o
+[572/675    3s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Il2CppGenericComDefinitions22.o
+[573/675    2s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Il2CppGenericComDefinitions24.o
+[574/675    6s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Il2CppGenericComDefinitions2.o
+[575/675    2s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Il2CppGenericComDefinitions25.o
+[576/675    4s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Il2CppGenericComDefinitions23.o
+[577/675    1s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Il2CppGenericComDefinitions5.o
+[578/675    1s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Il2CppGenericComDefinitions4.o
+[579/675    1s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Il2CppGenericComDefinitions6.o
+[580/675    1s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Il2CppGenericComDefinitions7.o
+[581/675    1s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Il2CppGenericComDefinitions8.o
+[582/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/ModuleInitializers.o
+[583/675    1s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Il2CppGenericComDefinitions9.o
+[584/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/StaticConstructors.o
+[585/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/StringLiterals.o
+[586/675    1s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/StaticInitialization.o
+[587/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/TinyGems_StaticConstructors.o
+[588/675    2s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/TinyTypes.o
+[589/675   10s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Il2CppGenericComDefinitions3.o
+[590/675    5s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/TinyGems.o
+[591/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.2D.Entities.Physics_StaticConstructors.o
+[592/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Burst.o
+[593/675    6s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/TinyMethods.o
+[594/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Collections.LowLevel.ILSupport.o
+[595/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Collections_StaticConstructors.o
+[596/675    4s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.2D.Entities.Physics1.o
+[597/675    5s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.2D.Entities.Physics.o
+[598/675    1s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Entities.Runtime.o
+[599/675    1s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Entities.Runtime_StaticConstructors.o
+[600/675    6s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Collections.o
+[601/675    5s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Entities.o
+[602/675    5s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Entities2.o
+[603/675    6s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Entities1.o
+[604/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Entities_StaticConstructors.o
+[605/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Jobs.o
+[606/675    1s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.LowLevel.o
+[607/675    1s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Mathematics.Extensions.o
+[608/675    3s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Entities4.o
+[609/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Mathematics_StaticConstructors.o
+[610/675    1s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Platforms.Common.o
+[611/675    1s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Platforms.RunLoop.o
+[612/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Properties.Reflection.o
+[613/675    6s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Entities3.o
+[614/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Properties.o
+[615/675    1s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Runtime.EntryPoint.o
+[616/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Runtime.EntryPoint_StaticConstructors.o
+[617/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Scenes_StaticConstructors.o
+[618/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Serialization.o
+[619/675    5s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Mathematics.o
+[620/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.2D.Native_StaticConstructors.o
+[621/675    3s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Scenes.o
+[622/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.2D_StaticConstructors.o
+[623/675    1s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.2D.o
+[624/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.Audio.Web_StaticConstructors.o
+[625/675    1s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.Audio.Web.o
+[626/675    3s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.2D.Native.o
+[627/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.Audio_StaticConstructors.o
+[628/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.Burst.o
+[629/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.Core_StaticConstructors.o
+[630/675    1s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.IO.o
+[631/675    1s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.Core.o
+[632/675    1s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.Image2D.Web.o
+[633/675    3s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.Audio.o
+[634/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.Image2D.Web_StaticConstructors.o
+[635/675    1s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.Image2D.o
+[636/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.Image2D_StaticConstructors.o
+[637/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.Input.Web_StaticConstructors.o
+[638/675    1s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.Input.Web.o
+[639/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.Input_StaticConstructors.o
+[640/675    1s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.Input.o
+[641/675    4s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.Rendering.Native.o
+[642/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.Rendering.Native_StaticConstructors.o
+[643/675    4s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.Rendering.Native3.o
+[644/675    6s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.Rendering.Native2.o
+[645/675    6s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.Rendering.Native1.o
+[646/675    3s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.Rendering.o
+[647/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.Rendering_StaticConstructors.o
+[648/675    4s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.Rendering1.o
+[649/675    3s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.Rendering3.o
+[650/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.UnityInstance_StaticConstructors.o
+[651/675    1s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.UnityInstance.o
+[652/675    1s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.Web.o
+[653/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.Web_StaticConstructors.o
+[654/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Transforms_StaticConstructors.o
+[655/675    1s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Transforms1.o
+[656/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.ZeroJobs_StaticConstructors.o
+[657/675    8s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Tiny.Rendering2.o
+[658/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/UnsafeUtility.o
+[659/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/driver.o
+[660/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/mscorlib_StaticConstructors.o
+[661/675    5s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.Transforms.o
+[662/675    4s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/Unity.ZeroJobs.o
+[663/675    0s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/netstandard.o
+[664/675    0s] Lib_WebGL_wasm artifacts/libil2cpptiny/tinygems-web-wasm/libil2cpptiny.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[665/675    0s] Lib_WebGL_wasm artifacts/lib_unity_platforms_runloop/tinygems-web-wasm/lib_unity_platforms_runloop.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[666/675    0s] Lib_WebGL_wasm artifacts/lib_unity_tiny_web/tinygems-web-wasm/lib_unity_tiny_web.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[667/675    0s] Lib_WebGL_wasm artifacts/lib_unity_tiny_audio_web/tinygems-web-wasm/lib_unity_tiny_audio_web.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[668/675    0s] Lib_WebGL_wasm artifacts/lib_unity_tiny_input_web/tinygems-web-wasm/lib_unity_tiny_input_web.bc
+emcc: warning: Assuming object file output in the absence of `-c`, based on output filename. Add with `-c` or `-r` to avoid this warning [-Wemcc]
+[669/675    3s] C_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/z3p3/mscorlib.o
+[BUSY       6s] Link_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/TinyGems.html (+wasm,js)
+[BUSY      16s] Link_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/TinyGems.html (+wasm,js)
+[BUSY      26s] Link_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/TinyGems.html (+wasm,js)
+[BUSY      36s] Link_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/TinyGems.html (+wasm,js)
+[BUSY      46s] Link_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/TinyGems.html (+wasm,js)
+[BUSY      56s] Link_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/TinyGems.html (+wasm,js)
+[BUSY      66s] Link_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/TinyGems.html (+wasm,js)
+[BUSY      76s] Link_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/TinyGems.html (+wasm,js)
+[BUSY      86s] Link_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/TinyGems.html (+wasm,js)
+[BUSY      97s] Link_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/TinyGems.html (+wasm,js)
+[670/675   106s] Link_WebGL_wasm artifacts/TinyGems/tinygems-web-wasm/TinyGems.html (+wasm,js)
+emcc:WARNING: --llvm-lto ignored when using llvm backend
+cache:INFO: generating system library: libfetch.a... (this will be cached in "/Users/Ocean/Documents/2021/06_unity/ProjectTinySamples-master/TinyGems/Library/DotsRuntimeBuild/artifacts/emscripten-cache-1.39.17/wasm/libfetch.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: libgl-webgl2.a... (this will be cached in "/Users/Ocean/Documents/2021/06_unity/ProjectTinySamples-master/TinyGems/Library/DotsRuntimeBuild/artifacts/emscripten-cache-1.39.17/wasm/libgl-webgl2.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: libc.a... (this will be cached in "/Users/Ocean/Documents/2021/06_unity/ProjectTinySamples-master/TinyGems/Library/DotsRuntimeBuild/artifacts/emscripten-cache-1.39.17/wasm/libc.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: libcompiler_rt.a... (this will be cached in "/Users/Ocean/Documents/2021/06_unity/ProjectTinySamples-master/TinyGems/Library/DotsRuntimeBuild/artifacts/emscripten-cache-1.39.17/wasm/libcompiler_rt.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: libc-wasm.a... (this will be cached in "/Users/Ocean/Documents/2021/06_unity/ProjectTinySamples-master/TinyGems/Library/DotsRuntimeBuild/artifacts/emscripten-cache-1.39.17/wasm/libc-wasm.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: libc++-noexcept.a... (this will be cached in "/Users/Ocean/Documents/2021/06_unity/ProjectTinySamples-master/TinyGems/Library/DotsRuntimeBuild/artifacts/emscripten-cache-1.39.17/wasm/libc++-noexcept.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: libc++abi-noexcept.a... (this will be cached in "/Users/Ocean/Documents/2021/06_unity/ProjectTinySamples-master/TinyGems/Library/DotsRuntimeBuild/artifacts/emscripten-cache-1.39.17/wasm/libc++abi-noexcept.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: libemmalloc-noerrno-64bit.a... (this will be cached in "/Users/Ocean/Documents/2021/06_unity/ProjectTinySamples-master/TinyGems/Library/DotsRuntimeBuild/artifacts/emscripten-cache-1.39.17/wasm/libemmalloc-noerrno-64bit.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: libpthread_stub.a... (this will be cached in "/Users/Ocean/Documents/2021/06_unity/ProjectTinySamples-master/TinyGems/Library/DotsRuntimeBuild/artifacts/emscripten-cache-1.39.17/wasm/libpthread_stub.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: libc_rt_wasm.a... (this will be cached in "/Users/Ocean/Documents/2021/06_unity/ProjectTinySamples-master/TinyGems/Library/DotsRuntimeBuild/artifacts/emscripten-cache-1.39.17/wasm/libc_rt_wasm.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system library: libsockets.a... (this will be cached in "/Users/Ocean/Documents/2021/06_unity/ProjectTinySamples-master/TinyGems/Library/DotsRuntimeBuild/artifacts/emscripten-cache-1.39.17/wasm/libsockets.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating system asset: generated_struct_info.json... (this will be cached in "/Users/Ocean/Documents/2021/06_unity/ProjectTinySamples-master/TinyGems/Library/DotsRuntimeBuild/artifacts/emscripten-cache-1.39.17/wasm/generated_struct_info.json" for subsequent builds)
+cache:INFO:  - ok
+[671/675    0s] CopyTool ../../Builds/tinygems-web-wasm/TinyGems.js
+[672/675    0s] CopyTool ../../Builds/tinygems-web-wasm/TinyGems.wasm
+[673/675    0s] CopyTool ../../Builds/tinygems-web-wasm/TinyGems.html
+*** Bee build success (231.43 seconds - 0:03:51), 177 items updated, 675 evaluated
