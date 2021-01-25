@@ -79,6 +79,7 @@ f17be26d84eed4a7886804c2b15424d4 = Assets/Scenes/TinyGems.unity
 0x0b588617345eafa8 -     817550766588735400 - UnityEditorInternal.AssemblyDefinitionImporter
 0x0b59ac03e625884c -     817873940090554444 - UnityEditor.BoxCollider2DEditor
 0x0b7e4e1dc201a4ef -     828185271198655727 - UnityEditor.EditorSettingsInspector
+0x0b87d8b95c771721 -     830870946905003809 - Unity.TinyGems.Authoring.CardsManagerComponent
 0x0b8dc8f4cd781933 -     832542459878185267 - Unity.Rendering.FrozenRenderSceneTagProxy
 0x0bb1474fef52718c -     842533013938139532 - UnityEditor.AssetStoreAssetInspector
 0x0bcd4d8923a01af4 -     850421156046445300 - Unity.Rendering.HLOD
@@ -1146,6 +1147,7 @@ f17be26d84eed4a7886804c2b15424d4 = Assets/Scenes/TinyGems.unity
 0xc089ef6da8cd7276 -   13873883381354033782 - UnityEditor.Timeline.BasicAssetInspector
 0xc14146a067edc9a8 -   13925489177558632872 - UnityEditor.AnimatorOverrideControllerInspector
 0xc148bcc1ef4d8e25 -   13927589388772806181 - UnityEditor.PrefabImporterEditor
+0xc1670e474fe91445 -   13936123271367431237 - Unity.TinyGems.CardsManager
 0xc1ceb474e7f31332 -   13965297908723159858 - UnityEditor.ViewModeTool
 0xc1d24912196d9d27 -   13966305736514182439 - UnityEngine.ParticleSystemForceField
 0xc1d296970828f6f4 -   13966390969850459892 - Unity.Tiny.RectTransformFinalSize
@@ -1241,6 +1243,7 @@ f17be26d84eed4a7886804c2b15424d4 = Assets/Scenes/TinyGems.unity
 0xd2e77fa29e09809d -   15197255803997880477 - UnityEngine.EventSystems.EventTrigger
 0xd2eb1abc0d5adbfb -   15198270762472102907 - UnityEditor.PackageManager.UI.AssetStoreFiltersWindow
 0xd312ad9c5fa74d43 -   15209409778714889539 - UnityEditor.AnnotationWindow
+0xd322e8cfc71bf10e -   15213978470307328270 - Unity.TinyGems.Authoring.ManagerComponent
 0xd35a443d0bdbf3ab -   15229560118889411499 - UnityEngine.MonoBehaviour
 0xd38417dc1ebf07a8 -   15241333273104680872 - UnityEditor.Timeline.AnimationPlayableAssetInspector
 0xd3b3840ae04b577b -   15254681545081575291 - UnityEditor.UI.ContentSizeFitterEditor
@@ -1388,6 +1391,7 @@ f17be26d84eed4a7886804c2b15424d4 = Assets/Scenes/TinyGems.unity
 0xea0e1b6e838b47ad -   16865447816016381869 - UnityEngine.WebCamTexture
 0xea1c3e1da8902b6f -   16869426601326029679 - Unity.Physics.PhysicsMassOverride
 0xea20da2021657a56 -   16870724035663985238 - UnityEngine.Experimental.Rendering.Universal.RenderObjects
+0xea48c99d331cd6a0 -   16881964880202880672 - Unity.TinyGems.Manager
 0xeb115d67a5b8f817 -   16938422373260523543 - Unity.Transforms.PostRotationEulerXYZ
 0xeb4e174d05f24252 -   16955515266676179538 - UnityEngine.CharacterJoint
 0xeb59be79d4ef4cfc -   16958795302313086204 - UnityEditor.TerrainInspector
@@ -1588,6 +1592,7 @@ f17be26d84eed4a7886804c2b15424d4 = Assets/Scenes/TinyGems.unity
 0x0b588617345eafa8 -     817550766588735400 - UnityEditorInternal.AssemblyDefinitionImporter
 0x0b59ac03e625884c -     817873940090554444 - UnityEditor.BoxCollider2DEditor
 0x0b7e4e1dc201a4ef -     828185271198655727 - UnityEditor.EditorSettingsInspector
+0x0b87d8b95c771721 -     830870946905003809 - Unity.TinyGems.Authoring.CardsManagerComponent
 0x0b8dc8f4cd781933 -     832542459878185267 - Unity.Rendering.FrozenRenderSceneTagProxy
 0x0bb1474fef52718c -     842533013938139532 - UnityEditor.AssetStoreAssetInspector
 0x0bcd4d8923a01af4 -     850421156046445300 - Unity.Rendering.HLOD
@@ -2655,6 +2660,7 @@ f17be26d84eed4a7886804c2b15424d4 = Assets/Scenes/TinyGems.unity
 0xc089ef6da8cd7276 -   13873883381354033782 - UnityEditor.Timeline.BasicAssetInspector
 0xc14146a067edc9a8 -   13925489177558632872 - UnityEditor.AnimatorOverrideControllerInspector
 0xc148bcc1ef4d8e25 -   13927589388772806181 - UnityEditor.PrefabImporterEditor
+0xc1670e474fe91445 -   13936123271367431237 - Unity.TinyGems.CardsManager
 0xc1ceb474e7f31332 -   13965297908723159858 - UnityEditor.ViewModeTool
 0xc1d24912196d9d27 -   13966305736514182439 - UnityEngine.ParticleSystemForceField
 0xc1d296970828f6f4 -   13966390969850459892 - Unity.Tiny.RectTransformFinalSize
@@ -2750,6 +2756,7 @@ f17be26d84eed4a7886804c2b15424d4 = Assets/Scenes/TinyGems.unity
 0xd2e77fa29e09809d -   15197255803997880477 - UnityEngine.EventSystems.EventTrigger
 0xd2eb1abc0d5adbfb -   15198270762472102907 - UnityEditor.PackageManager.UI.AssetStoreFiltersWindow
 0xd312ad9c5fa74d43 -   15209409778714889539 - UnityEditor.AnnotationWindow
+0xd322e8cfc71bf10e -   15213978470307328270 - Unity.TinyGems.Authoring.ManagerComponent
 0xd35a443d0bdbf3ab -   15229560118889411499 - UnityEngine.MonoBehaviour
 0xd38417dc1ebf07a8 -   15241333273104680872 - UnityEditor.Timeline.AnimationPlayableAssetInspector
 0xd3b3840ae04b577b -   15254681545081575291 - UnityEditor.UI.ContentSizeFitterEditor
@@ -2897,6 +2904,7 @@ f17be26d84eed4a7886804c2b15424d4 = Assets/Scenes/TinyGems.unity
 0xea0e1b6e838b47ad -   16865447816016381869 - UnityEngine.WebCamTexture
 0xea1c3e1da8902b6f -   16869426601326029679 - Unity.Physics.PhysicsMassOverride
 0xea20da2021657a56 -   16870724035663985238 - UnityEngine.Experimental.Rendering.Universal.RenderObjects
+0xea48c99d331cd6a0 -   16881964880202880672 - Unity.TinyGems.Manager
 0xeb115d67a5b8f817 -   16938422373260523543 - Unity.Transforms.PostRotationEulerXYZ
 0xeb4e174d05f24252 -   16955515266676179538 - UnityEngine.CharacterJoint
 0xeb59be79d4ef4cfc -   16958795302313086204 - UnityEditor.TerrainInspector

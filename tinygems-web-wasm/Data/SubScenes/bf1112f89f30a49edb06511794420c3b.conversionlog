@@ -8,13 +8,13 @@ Log: Exported Asset: 2a0e75ec1bec7a8621210ad1e8892165 = Assets/Audio/Fail_1.wav
 Log: Exported Asset: 776eba6f82384db46090ac7ef6d8ccf5 = Assets/Audio/Fail_2.wav
 Log: Exported Asset: dce6a091b6226632c1a6c19148d6917e = Assets/Audio/Fail_3.wav
 Log: Exported Asset: 2ba1be91cb33cca0b0c56674d27bc823 = Assets/Audio/GameOver.wav
+Log: Exported Asset: f6703f1483ae7d6f5ddfacd22a2b148b = Assets/Sprites/Game/Card_1.png
 Log: Exported Asset: 2f7b0646579617de49d0c651ca47a74e = Assets/Sprites/Game/Cell Background.png
 Log: Exported Asset: fccdb64fb3c2fc5d3c6043a46033a816 = Assets/Sprites/Game/Heart.png
 Log: Exported Asset: 51cb8636fd478b83f51c7effdab88824 = Assets/Sprites/Game/Heart Frame.png
-Log: Exported Asset: a93951f04e6c977531749969ac6b8cab = Assets/Sprites/Game/Background.png
 Log: Exported Asset: 4fc4216a05cc2a1ac5c9c94dc0dcd95a = Assets/Sprites/UI/Logo.png
 Log: Exported Asset: 1ddd916bffcabfac5b8f99d25f7847e4 = Assets/Sprites/UI/Click to Start.png
-Log: Exported Asset: 2cb6d194592f29296e88effa269841ad = Assets/Sprites/UI/made-with-unity.png
+Log: Exported Asset: 0fd7c1c2646821cc6d0c3dc0cf3f8885 = Assets/Sprites/Game/Map.jpg
 Log: Exported Asset: e3b7dd427015cc323b8ab32937e06ba0 = Assets/Sprites/Game/Sparkle.png
 Log: Exported Asset: 2c74489cdc7fe7b87502beba7589ace4 = Assets/Sprites/Game/Gem Red.png
 Log: Exported Asset: 37ba4e6c91872a74f82aa7bee0b2a8b8 = Assets/Sprites/Game/Gem Blue.png
@@ -22,32 +22,33 @@ Log: Exported Asset: d840aa465201fe97e86f01b46eaa5972 = Assets/Sprites/Game/Gem 
 Log: Exported Asset: 9db22cca16665b9afd37f9d5ade3f991 = Assets/Sprites/Game/Gem Green.png
 Log: Exported Asset: 775b9a653e13cd27b72d1d605b298bdd = Assets/Sprites/Game/Gem Pink.png
 Log: ::Exported Types (by stable hash)::
-Log: 0xb1ac034499f49e3e -   12802611433883082302 - Unity.Transforms.Rotation
-Log: 0x64138b0154266adb -    7211260266173328091 - Unity.TinyGems.AudioObject
-Log: 0x8f221f4254dd4a6e -   10313840466383948398 - Unity.TinyGems.CellManager
-Log: 0xe1dc6deb17e0424d -   16275004009895445069 - Unity.Tiny.SpriteRenderer
-Log: 0x4086db24000237ae -    4649644612972066734 - Unity.Transforms.NonUniformScale
-Log: 0xef7b3f9b54427c89 -   17256456333566311561 - Unity.Tiny.Audio.AudioClipLoadFromFile
-Log: 0x616a36e3c0cfef8c -    7019483321030668172 - Unity.Entities.Prefab
-Log: 0x33d4355faee94fea -    3734668676069674986 - Unity.TinyGems.AudioLibrary
-Log: 0x9a2c78dce225e5b0 -   11109387270898443696 - Unity.Tiny.Image2DLoadFromFileGuids
-Log: 0x348089c9809ead83 -    3783175185530531203 - Unity.TinyGems.CenterObjectTag
-Log: 0x834adf0c959e2b04 -    9460619212387920644 - Unity.Tiny.Renderer2D
-Log: 0xda007ce4baa8be64 -   15708692822094298724 - Unity.Tiny.Image2DLoadFromFile
-Log: 0x97490261b3c2de08 -   10901246991677971976 - Unity.Transforms.LocalToWorld
-Log: 0x4130bcdadd72a104 -    4697462059551596804 - Unity.TinyGems.HeartManager
+Log: 0x64e066577f43ef94 -    7268922324559327124 - Unity.TinyGems.CellSprite
 Log: 0xf5667919638a33b7 -   17682954136867976119 - Unity.Tiny.Audio.AudioClipLoadFromFileAudioFile
-Log: 0x8c1898b05b41be69 -   10094986447963668073 - Unity.TinyGems.HudObject
 Log: 0xc73e8a829c87fcf6 -   14357064955680259318 - Unity.Scenes.SceneBoundingVolume
 Log: 0xa42de7cc0763e5be -   11830366659655493054 - Unity.Transforms.Translation
 Log: 0xdb292c2c62628b48 -   15792202137492163400 - Unity.Tiny.Sprite
 Log: 0xbea79ca45e4be521 -   13738121418087589153 - Unity.Entities.LinkedEntityGroup
-Log: 0x2f0ecf01fe9b0cb8 -    3390875176930053304 - Unity.TinyGems.SparkleObject
+Log: 0x33d4355faee94fea -    3734668676069674986 - Unity.TinyGems.AudioLibrary
 Log: 0xc8cdf1fe8c8f2c99 -   14469487253393452185 - Unity.U2D.Entities.Physics.PhysicsColliderBlob
 Log: 0xd52a8a8aa388fc91 -   15360241807154281617 - Unity.Tiny.Image2D
 Log: 0xa466b7c9c19e31f1 -   11846357947009348081 - Unity.Entities.SceneSection
 Log: 0x4d1afe3de83f2462 -    5556032632157840482 - Unity.Transforms.LocalToParent
-Log: 0x64e066577f43ef94 -    7268922324559327124 - Unity.TinyGems.CellSprite
+Log: 0x8f221f4254dd4a6e -   10313840466383948398 - Unity.TinyGems.CellManager
 Log: 0xbb8acf33bef95e2b -   13513841453032889899 - Unity.Tiny.Audio.AudioClip
-Log: 0x76fb4317b4fbaf8f -    8573520084729573263 - Unity.TinyGems.HudShowState
 Log: 0x6a6b52ecc95a65e0 -    7668313967472305632 - Unity.Transforms.Parent
+Log: 0x4130bcdadd72a104 -    4697462059551596804 - Unity.TinyGems.HeartManager
+Log: 0xb1ac034499f49e3e -   12802611433883082302 - Unity.Transforms.Rotation
+Log: 0x8c1898b05b41be69 -   10094986447963668073 - Unity.TinyGems.HudObject
+Log: 0xe1dc6deb17e0424d -   16275004009895445069 - Unity.Tiny.SpriteRenderer
+Log: 0x2f0ecf01fe9b0cb8 -    3390875176930053304 - Unity.TinyGems.SparkleObject
+Log: 0x4086db24000237ae -    4649644612972066734 - Unity.Transforms.NonUniformScale
+Log: 0xc1670e474fe91445 -   13936123271367431237 - Unity.TinyGems.CardsManager
+Log: 0xef7b3f9b54427c89 -   17256456333566311561 - Unity.Tiny.Audio.AudioClipLoadFromFile
+Log: 0x616a36e3c0cfef8c -    7019483321030668172 - Unity.Entities.Prefab
+Log: 0x76fb4317b4fbaf8f -    8573520084729573263 - Unity.TinyGems.HudShowState
+Log: 0x9a2c78dce225e5b0 -   11109387270898443696 - Unity.Tiny.Image2DLoadFromFileGuids
+Log: 0x348089c9809ead83 -    3783175185530531203 - Unity.TinyGems.CenterObjectTag
+Log: 0x834adf0c959e2b04 -    9460619212387920644 - Unity.Tiny.Renderer2D
+Log: 0x64138b0154266adb -    7211260266173328091 - Unity.TinyGems.AudioObject
+Log: 0xda007ce4baa8be64 -   15708692822094298724 - Unity.Tiny.Image2DLoadFromFile
+Log: 0x97490261b3c2de08 -   10901246991677971976 - Unity.Transforms.LocalToWorld
